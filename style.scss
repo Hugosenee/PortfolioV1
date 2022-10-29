@@ -13,6 +13,34 @@
     box-sizing: border-box;
 }
 
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    color: white;
+    border-bottom: 3px solid #232C36;
+    .portfolioheader{
+        font-size: 70px;
+        width: 50%;
+        span{
+            color: #232C36;
+        }
+    }
+    .headerlink{
+        width: 40%;
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 50px;
+            font-size: 40px;
+            margin-top: 10px;
+        }
+    }
+    .modal{
+        width: 10%;
+    }
+}
+
 body{
     font-family:'niagara_solidregular';
     background-color: #95BCE6;
@@ -22,14 +50,14 @@ body{
         display: flex;
         .image{
             width: 50%;
-            height: 90vh;
+            height: 84vh;
             display: flex;
             justify-content: center;
             border-bottom: 3px solid #232C36;
             img {
                 height: 550px;
                 margin-bottom: 0px;
-                margin-top: 92px;
+                margin-top: 50px;
             }
         }
         .droite{
@@ -42,13 +70,14 @@ body{
                 font-size: 170px;
                 display: flex;
                 justify-content: center;
+                border-right: 3px solid #232C36;
                 p{
                     margin-top: 80px;
                 }
             }
             .developpeur{
                 width: 100%;
-                height: 50vh;
+                height: 44vh;
                 font-size: 170px;
                 display: flex;
                 justify-content: center;
@@ -189,6 +218,67 @@ body{
                     font-size: 30px;
                 }
             }
+        }
+    }
+}
+
+footer{
+    width: 100%;
+    height: 60vh;
+    background-color: #232C36;
+    .footer{
+        width: 90%;
+        height: 50vh;
+        display: flex;
+        border-bottom: 3px solid white;
+        .textlink{
+            width: 60%;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            font-size: 70px;
+            color: #95BCE6;
+            p{
+                margin-top: 20px;
+            }
+            hr{
+                width: 320px;
+                height: 3px solid white;
+            }
+            .imglink{
+                width: 60%;
+                min-width: 600px;
+                height: 40vh;
+                display: flex;
+                img{
+                    height: 70px;
+                    margin-top: 70px;
+                }
+            }
+        }
+        .cv{
+            width: 40%;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            img{
+                height: 220px;
+                margin-top: 45px;
+            }
+            p{
+                font-size: 50px;
+                margin-top: 10px;
+                color: white;
+            }
+        }
+    }
+    #C2022{
+        p{
+            color: #95BCE6;
+            text-align: right;
+            font-size: 30px;
+            margin-right: 75px;
+            margin-top: 5px;
         }
     }
 }

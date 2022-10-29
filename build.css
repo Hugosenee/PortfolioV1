@@ -10,6 +10,34 @@
   box-sizing: border-box;
 }
 
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  color: white;
+  border-bottom: 3px solid #232C36;
+}
+header .portfolioheader {
+  font-size: 70px;
+  width: 50%;
+}
+header .portfolioheader span {
+  color: #232C36;
+}
+header .headerlink {
+  width: 40%;
+}
+header .headerlink ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  font-size: 40px;
+  margin-top: 10px;
+}
+header .modal {
+  width: 10%;
+}
+
 body {
   font-family: "niagara_solidregular";
   background-color: #95BCE6;
@@ -21,7 +49,7 @@ body .landing {
 }
 body .landing .image {
   width: 50%;
-  height: 90vh;
+  height: 84vh;
   display: flex;
   justify-content: center;
   border-bottom: 3px solid #232C36;
@@ -29,7 +57,7 @@ body .landing .image {
 body .landing .image img {
   height: 550px;
   margin-bottom: 0px;
-  margin-top: 92px;
+  margin-top: 50px;
 }
 body .landing .droite {
   width: 50%;
@@ -42,13 +70,14 @@ body .landing .droite .hugo {
   font-size: 170px;
   display: flex;
   justify-content: center;
+  border-right: 3px solid #232C36;
 }
 body .landing .droite .hugo p {
   margin-top: 80px;
 }
 body .landing .droite .developpeur {
   width: 100%;
-  height: 50vh;
+  height: 44vh;
   font-size: 170px;
   display: flex;
   justify-content: center;
@@ -188,6 +217,65 @@ body .projets .projet3 .textsite #nomsite {
 }
 body .projets .projet3 .textsite p {
   font-size: 30px;
+}
+
+footer {
+  width: 100%;
+  height: 60vh;
+  background-color: #232C36;
+}
+footer .footer {
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  border-bottom: 3px solid white;
+}
+footer .footer .textlink {
+  width: 60%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 70px;
+  color: #95BCE6;
+}
+footer .footer .textlink p {
+  margin-top: 20px;
+}
+footer .footer .textlink hr {
+  width: 320px;
+  height: 3px solid white;
+}
+footer .footer .textlink .imglink {
+  width: 60%;
+  min-width: 600px;
+  height: 40vh;
+  display: flex;
+}
+footer .footer .textlink .imglink img {
+  height: 70px;
+  margin-top: 70px;
+}
+footer .footer .cv {
+  width: 40%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+footer .footer .cv img {
+  height: 220px;
+  margin-top: 45px;
+}
+footer .footer .cv p {
+  font-size: 50px;
+  margin-top: 10px;
+  color: white;
+}
+footer #C2022 p {
+  color: #95BCE6;
+  text-align: right;
+  font-size: 30px;
+  margin-right: 75px;
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=build.css.map */
