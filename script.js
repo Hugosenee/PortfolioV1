@@ -1,3 +1,20 @@
+const hugo = document.querySelector('.hugo')
+const developeur = document.querySelector('.developpeur')
+
+hugo.addEventListener('click', function() {
+    developeur.style.color ='#232C36'
+    hugo.style.color = 'white'
+})
+
+developeur.addEventListener('click', function() {
+    developeur.style.color ='white'
+    hugo.style.color = '#232C36'
+})
+
+
+
+
+
 const timing = .4
 const options = {
     root: null,
