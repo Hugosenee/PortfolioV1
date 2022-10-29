@@ -42,6 +42,15 @@ body {
   font-family: "niagara_solidregular";
   background-color: #95BCE6;
 }
+body .reveal {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+body .reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 0.3s;
+}
 body .landing {
   width: 100%;
   height: 100vh;
