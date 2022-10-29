@@ -101,6 +101,9 @@ body .landing .droite .hugo {
 body .landing .droite .hugo p {
   margin-top: 80px;
 }
+body .landing .droite .hugo:hover {
+  cursor: pointer;
+}
 body .landing .droite .developpeur {
   position: relative;
   width: 100%;
@@ -111,6 +114,9 @@ body .landing .droite .developpeur {
   color: white;
   border-left: 3px solid #232C36;
   border-top: 3px solid #232C36;
+}
+body .landing .droite .developpeur:hover {
+  cursor: pointer;
 }
 body .fondblanc {
   width: 100%;
@@ -296,6 +302,21 @@ footer .footer .cv p {
   font-size: 50px;
   margin-top: 10px;
   color: white;
+  position: relative;
+  cursor: pointer;
+}
+footer .footer .cv p:after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -1px;
+  transition: 0.3s;
+}
+footer .footer .cv p:hover:after {
+  width: 100%;
 }
 footer #C2022 p {
   color: #95BCE6;

@@ -101,6 +101,9 @@ body{
                     margin-top: 80px;
                 }
             }
+            .hugo:hover{
+                cursor: pointer;
+            }
             .developpeur{
                 position: relative;
                 width: 100%;
@@ -111,6 +114,9 @@ body{
                 color: white;
                 border-left: 3px solid #232C36;
                 border-top: 3px solid #232C36;
+            }
+            .developpeur:hover{
+                cursor: pointer;
             }
         }
     }
@@ -296,6 +302,21 @@ footer{
                 font-size: 50px;
                 margin-top: 10px;
                 color: white;
+                position: relative;
+                cursor: pointer;
+            }
+            p:after{
+                content: "";
+                position: absolute;
+                background-color: white;
+                height: 3px;
+                width: 0;
+                left: 0;
+                bottom: -1px;
+                transition: 0.3s;
+            }
+            p:hover:after{
+                width: 100%;
             }
         }
     }
