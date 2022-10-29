@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'niagara_solidregular';
+    src: url('font/niagsol-webfont.woff2') format('woff2'),
+         url('font/niagsol-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'niagara_solidregular';
+    background-color: #95BCE6;
+    .landing{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        .image{
+            width: 50%;
+            height: 90vh;
+            display: flex;
+            justify-content: center;
+            border-bottom: 3px solid #232C36;
+            img {
+                height: 550px;
+                margin-bottom: 0px;
+                margin-top: 92px;
+            }
+        }
+        .droite{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            .hugo{
+                width: 100%;
+                height: 40vh;
+                font-size: 170px;
+                display: flex;
+                justify-content: center;
+                p{
+                    margin-top: 80px;
+                }
+            }
+            .developpeur{
+                width: 100%;
+                height: 50vh;
+                font-size: 170px;
+                display: flex;
+                justify-content: center;
+                color: white;
+                border-left: 3px solid #232C36;
+                border-top: 3px solid #232C36;
+            }
+        }
+    }
+    .fondblanc{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        .about{
+            width: 50%;
+            height: 100vh;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            p{
+                font-size: 170px;
+            }
+        }
+        .text{
+            width: 50%;
+            height: 70vh;
+            margin-top: 15vh;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            font-size: 60px;
+            border-left: 3px solid #95BCE6;
+            p{
+                padding: 100px;
+            }
+        }
+    }
+}
