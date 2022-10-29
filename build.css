@@ -58,7 +58,7 @@ body .landing .droite .developpeur {
 }
 body .fondblanc {
   width: 100%;
-  height: 100vh;
+  height: 115vh;
   display: flex;
   justify-content: center;
   background-color: white;
@@ -66,6 +66,7 @@ body .fondblanc {
 body .fondblanc .about {
   width: 50%;
   height: 100vh;
+  margin-top: 10vh;
   text-align: center;
   align-items: center;
   display: flex;
@@ -77,7 +78,7 @@ body .fondblanc .about p {
 body .fondblanc .text {
   width: 50%;
   height: 70vh;
-  margin-top: 15vh;
+  margin-top: 25vh;
   text-align: center;
   align-items: center;
   display: flex;
@@ -87,6 +88,106 @@ body .fondblanc .text {
 }
 body .fondblanc .text p {
   padding: 100px;
+}
+body .projets {
+  width: 100%;
+  height: 350vh;
+}
+body .projets .titre {
+  text-align: center;
+  font-size: 200px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+body .projets .projet1 {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid white;
+}
+body .projets .projet1 .imgsite {
+  width: 60%;
+  height: 60vh;
+  background-color: white;
+  box-shadow: 5px 5px 15px #232C36;
+}
+body .projets .projet1 .textsite {
+  width: 40%;
+  height: 50%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body .projets .projet1 .textsite #nomsite {
+  font-size: 50px;
+  margin-bottom: 10vh;
+}
+body .projets .projet1 .textsite p {
+  font-size: 30px;
+}
+body .projets .projet2 {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid white;
+}
+body .projets .projet2 .imgsite {
+  width: 60%;
+  height: 60vh;
+  background-color: white;
+  box-shadow: 5px 5px 15px #232C36;
+}
+body .projets .projet2 .textsite {
+  width: 40%;
+  height: 50%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body .projets .projet2 .textsite #nomsite {
+  font-size: 50px;
+  margin-bottom: 10vh;
+}
+body .projets .projet2 .textsite p {
+  font-size: 30px;
+}
+body .projets .projet3 {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid white;
+}
+body .projets .projet3 .imgsite {
+  width: 60%;
+  height: 60vh;
+  background-color: white;
+  box-shadow: 5px 5px 15px #232C36;
+}
+body .projets .projet3 .textsite {
+  width: 40%;
+  height: 50%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body .projets .projet3 .textsite #nomsite {
+  font-size: 50px;
+  margin-bottom: 10vh;
+}
+body .projets .projet3 .textsite p {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=build.css.map */
