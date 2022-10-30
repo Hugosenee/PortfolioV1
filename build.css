@@ -8,6 +8,7 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -50,6 +51,10 @@ header .headerlink ul li:after {
 }
 header .headerlink ul li:hover:after {
   width: 100%;
+}
+header .headerlink ul a {
+  text-decoration: none;
+  color: white;
 }
 header .modal {
   width: 10%;
@@ -261,7 +266,7 @@ body .projets .projet3 {
 body .projets .projet3 .imgsite {
   width: 60%;
   height: 60vh;
-  background-color: lightgray;
+  background-color: white;
   box-shadow: 16px 14px 20px #232C36;
   display: flex;
   justify-content: center;
@@ -270,6 +275,9 @@ body .projets .projet3 .imgsite {
 body .projets .projet3 .imgsite img {
   width: 50%;
   height: auto;
+}
+body .projets .projet3 .imgsite #loading {
+  font-size: 80px;
 }
 body .projets .projet3 .textsite {
   width: 40%;

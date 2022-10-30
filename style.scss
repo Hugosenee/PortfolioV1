@@ -11,6 +11,7 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -50,6 +51,10 @@ header{
             }
             li:hover:after{
                 width: 100%;
+            }
+            a{
+                text-decoration: none;
+                color: white;
             }
         }
     }
@@ -263,7 +268,7 @@ body{
             .imgsite{
                 width: 60%;
                 height: 60vh;
-                background-color: lightgray;
+                background-color: white;
                 box-shadow: 16px 14px 20px #232C36;
                 display: flex;
                 justify-content: center;
@@ -271,6 +276,9 @@ body{
                 img{
                     width: 50%;
                     height: auto;
+                }
+                #loading{
+                    font-size: 80px;
                 }
             }
             .textsite{
@@ -371,6 +379,7 @@ footer{
     }
 }
 
+// INDEX
 
 body{
     #h1index{

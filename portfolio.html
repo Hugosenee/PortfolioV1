@@ -13,9 +13,9 @@
     </div>
     <div class="headerlink reveal">
         <ul>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projets">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <div class="modal">
@@ -36,7 +36,7 @@
             </div>
         </div>
     </section>
-    <section class="fondblanc">
+    <section class="fondblanc" id="about">
         <div class="about reveal">
             <p>ABOUT</p>
         </div>
@@ -44,7 +44,7 @@
             <p class="reveal">Etudiant à l'iim, au pôle Leonard de Vinci, j'étudie le développement web au cours d'un bachelor "coding et digital innovation"</p>
         </div>
     </section>
-    <section class="projets">
+    <section class="projets" id="projets">
         <div class="titre">
             <p>Projets</p>
         </div>
@@ -70,7 +70,7 @@
         </div>
         <div class="projet3 reveal">
             <div class="imgsite">
-                <img src="images/travaux.png" alt="work in progress">
+                <p id="loading">LOADING<span id="troispoints">.</span></p>
             </div>
             <div class="textsite">
                 <p id="nomsite">Work in progress</p>
@@ -78,10 +78,11 @@
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="script.js"></script>
 </body>
 <footer>
-    <div class="footer">
+    <div class="footer" id="contact">
         <div class="textlink">
             <p>Looking for more ?</p>
             <div class="imglink">

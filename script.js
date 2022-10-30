@@ -1,12 +1,12 @@
 const hugo = document.querySelector('.hugo')
 const developeur = document.querySelector('.developpeur')
 
-hugo.addEventListener('click', function() {
+hugo.addEventListener('mouseover', function() {
     developeur.style.color ='#232C36'
     hugo.style.color = 'white'
 })
 
-developeur.addEventListener('click', function() {
+developeur.addEventListener('mouseover', function() {
     developeur.style.color ='white'
     hugo.style.color = '#232C36'
 })
@@ -15,7 +15,7 @@ developeur.addEventListener('click', function() {
 
 
 
-const timing = .4
+const timing = .55
 const options = {
     root: null,
     rootMargin: '0px',
@@ -36,6 +36,21 @@ const observer = new IntersectionObserver(HandleIntersect, options);
 document.querySelectorAll('.reveal').forEach(function (reveal) {
     observer.observe(reveal)
 })
+
+const loading = document.querySelector('#troispoints');
+
+new Typewriter(loading, {
+    loop : true ,
+    delay : 300,
+    deletespeed : 5,
+})
+
+.typeString('<span style="color:#95BCE6">.</span>')
+.pauseFor('100')
+.typeString('<span style="color:#232C36">.</span>')
+.pauseFor('100')
+.typeString('<span style="color:#95BCE6">.</span>')
+.start()
 
 
 
