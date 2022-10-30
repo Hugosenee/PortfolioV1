@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'niagara_solidregular';
-    src: url('font/niagsol-webfont.woff2') format('woff2'),
-         url('font/niagsol-webfont.woff') format('woff');
+    src:url('font/niagsol-webfont.woff2') format('woff2'),
+        url('font/niagsol-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -172,8 +172,13 @@ body{
             .imgsite{
                 width: 60%;
                 height: 60vh;
-                background-color: white;
                 box-shadow: 16px 14px 20px #232C36;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                
             }
             .textsite{
                 width: 40%;
@@ -186,9 +191,20 @@ body{
                 #nomsite{
                     font-size:50px ;
                     margin-bottom: 10vh;
+                    letter-spacing: 3px;
                 }
                 p{
                     font-size: 30px;
+                }
+                #btn{
+                    color: white;
+                    border: 3px solid white;
+                    padding: 5px;
+                    margin-top: 60px;
+                    background-color: #95BCE6;
+                    width: 150px;
+                    height: 50px;
+                    font-size: large;
                 }
             }
         }
@@ -202,8 +218,13 @@ body{
             .imgsite{
                 width: 60%;
                 height: 60vh;
-                background-color: white;
                 box-shadow: 16px 14px 20px #232C36;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+                
             }
             .textsite{
                 width: 40%;
@@ -220,6 +241,16 @@ body{
                 p{
                     font-size: 30px;
                 }
+                #btn{
+                    color: white;
+                    border: 3px solid white;
+                    padding: 5px;
+                    margin-top: 60px;
+                    background-color: #95BCE6;
+                    width: 150px;
+                    height: 50px;
+                    font-size: large;
+                }   
             }
         }
         .projet3{
@@ -232,8 +263,15 @@ body{
             .imgsite{
                 width: 60%;
                 height: 60vh;
-                background-color: white;
+                background-color: lightgray;
                 box-shadow: 16px 14px 20px #232C36;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 50%;
+                    height: auto;
+                }
             }
             .textsite{
                 width: 40%;
@@ -273,10 +311,7 @@ footer{
             color: #95BCE6;
             p{
                 margin-top: 20px;
-            }
-            hr{
-                width: 320px;
-                height: 3px solid white;
+                border-bottom: 3px solid white;
             }
             .imglink{
                 width: 60%;
@@ -286,6 +321,11 @@ footer{
                 img{
                     height: 70px;
                     margin-top: 70px;
+                    cursor: pointer;
+                }
+                img:hover{
+                    background: white;
+                    border-radius: 100%;
                 }
             }
         }
@@ -328,5 +368,48 @@ footer{
             margin-right: 75px;
             margin-top: 5px;
         }
+    }
+}
+
+
+body{
+    #h1index{
+        text-align: center;
+        margin-top: 100px;
+        font-size: 170px;
+        box-sizing: border-box;
+        font-weight: lighter;
+    }
+    #nom{
+        text-align: center;
+        border: 3px solid #232C36;
+        border-radius: 45px;
+        width: 800px;
+        height: 90px;
+        font-size: 70px;
+        margin-top: 50px;
+    }
+    #mdp{
+        text-align: center;
+        border: 3px solid #232C36;
+        border-radius: 45px;
+        width: 800px;
+        height: 90px;
+        font-size: 70px;
+        margin-top: 50px;
+    }
+    #butonindex{
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        background-color: #95BCE6;
+        border: 3px solid #232C36;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    #butonindex:hover{
+        cursor: pointer;
+        background: white;
     }
 }

@@ -36,3 +36,6 @@ const observer = new IntersectionObserver(HandleIntersect, options);
 document.querySelectorAll('.reveal').forEach(function (reveal) {
     observer.observe(reveal)
 })
+
+
+

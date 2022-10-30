@@ -172,8 +172,12 @@ body .projets .projet1 {
 body .projets .projet1 .imgsite {
   width: 60%;
   height: 60vh;
-  background-color: white;
   box-shadow: 16px 14px 20px #232C36;
+  overflow: hidden;
+}
+body .projets .projet1 .imgsite img {
+  width: 100%;
+  height: 100%;
 }
 body .projets .projet1 .textsite {
   width: 40%;
@@ -187,9 +191,20 @@ body .projets .projet1 .textsite {
 body .projets .projet1 .textsite #nomsite {
   font-size: 50px;
   margin-bottom: 10vh;
+  letter-spacing: 3px;
 }
 body .projets .projet1 .textsite p {
   font-size: 30px;
+}
+body .projets .projet1 .textsite #btn {
+  color: white;
+  border: 3px solid white;
+  padding: 5px;
+  margin-top: 60px;
+  background-color: #95BCE6;
+  width: 150px;
+  height: 50px;
+  font-size: large;
 }
 body .projets .projet2 {
   width: 90%;
@@ -202,8 +217,12 @@ body .projets .projet2 {
 body .projets .projet2 .imgsite {
   width: 60%;
   height: 60vh;
-  background-color: white;
   box-shadow: 16px 14px 20px #232C36;
+  overflow: hidden;
+}
+body .projets .projet2 .imgsite img {
+  width: 100%;
+  height: 100%;
 }
 body .projets .projet2 .textsite {
   width: 40%;
@@ -221,6 +240,16 @@ body .projets .projet2 .textsite #nomsite {
 body .projets .projet2 .textsite p {
   font-size: 30px;
 }
+body .projets .projet2 .textsite #btn {
+  color: white;
+  border: 3px solid white;
+  padding: 5px;
+  margin-top: 60px;
+  background-color: #95BCE6;
+  width: 150px;
+  height: 50px;
+  font-size: large;
+}
 body .projets .projet3 {
   width: 90%;
   height: 100vh;
@@ -232,8 +261,15 @@ body .projets .projet3 {
 body .projets .projet3 .imgsite {
   width: 60%;
   height: 60vh;
-  background-color: white;
+  background-color: lightgray;
   box-shadow: 16px 14px 20px #232C36;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .projets .projet3 .imgsite img {
+  width: 50%;
+  height: auto;
 }
 body .projets .projet3 .textsite {
   width: 40%;
@@ -273,10 +309,7 @@ footer .footer .textlink {
 }
 footer .footer .textlink p {
   margin-top: 20px;
-}
-footer .footer .textlink hr {
-  width: 320px;
-  height: 3px solid white;
+  border-bottom: 3px solid white;
 }
 footer .footer .textlink .imglink {
   width: 60%;
@@ -287,6 +320,11 @@ footer .footer .textlink .imglink {
 footer .footer .textlink .imglink img {
   height: 70px;
   margin-top: 70px;
+  cursor: pointer;
+}
+footer .footer .textlink .imglink img:hover {
+  background: white;
+  border-radius: 100%;
 }
 footer .footer .cv {
   width: 40%;
@@ -324,6 +362,46 @@ footer #C2022 p {
   font-size: 30px;
   margin-right: 75px;
   margin-top: 5px;
+}
+
+body #h1index {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 170px;
+  box-sizing: border-box;
+  font-weight: lighter;
+}
+body #nom {
+  text-align: center;
+  border: 3px solid #232C36;
+  border-radius: 45px;
+  width: 800px;
+  height: 90px;
+  font-size: 70px;
+  margin-top: 50px;
+}
+body #mdp {
+  text-align: center;
+  border: 3px solid #232C36;
+  border-radius: 45px;
+  width: 800px;
+  height: 90px;
+  font-size: 70px;
+  margin-top: 50px;
+}
+body #butonindex {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: #95BCE6;
+  border: 3px solid #232C36;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+body #butonindex:hover {
+  cursor: pointer;
+  background: white;
 }
 
 /*# sourceMappingURL=build.css.map */
