@@ -209,7 +209,8 @@ body{
                     background-color: #95BCE6;
                     width: 150px;
                     height: 50px;
-                    font-size: large;
+                    font-size: medium;
+                    border-radius: 25px;
                 }
             }
         }
@@ -254,7 +255,8 @@ body{
                     background-color: #95BCE6;
                     width: 150px;
                     height: 50px;
-                    font-size: large;
+                    font-size: medium;
+                    border-radius: 25px;
                 }   
             }
         }
@@ -407,6 +409,9 @@ body{
         font-size: 70px;
         margin-top: 50px;
     }
+    a{
+        text-decoration: none;
+    }
     #butonindex{
         width: 80px;
         height: 80px;
@@ -416,9 +421,11 @@ body{
         display: flex;
         justify-content: center;
         margin-top: 40px;
+        font-size: 50px;
     }
     #butonindex:hover{
         cursor: pointer;
-        background: white;
+        border: 3px solid white;
+        color: white;
     }
 }

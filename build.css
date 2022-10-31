@@ -209,7 +209,8 @@ body .projets .projet1 .textsite #btn {
   background-color: #95BCE6;
   width: 150px;
   height: 50px;
-  font-size: large;
+  font-size: medium;
+  border-radius: 25px;
 }
 body .projets .projet2 {
   width: 90%;
@@ -253,7 +254,8 @@ body .projets .projet2 .textsite #btn {
   background-color: #95BCE6;
   width: 150px;
   height: 50px;
-  font-size: large;
+  font-size: medium;
+  border-radius: 25px;
 }
 body .projets .projet3 {
   width: 90%;
@@ -397,6 +399,9 @@ body #mdp {
   font-size: 70px;
   margin-top: 50px;
 }
+body a {
+  text-decoration: none;
+}
 body #butonindex {
   width: 80px;
   height: 80px;
@@ -406,10 +411,12 @@ body #butonindex {
   display: flex;
   justify-content: center;
   margin-top: 40px;
+  font-size: 50px;
 }
 body #butonindex:hover {
   cursor: pointer;
-  background: white;
+  border: 3px solid white;
+  color: white;
 }
 
 /*# sourceMappingURL=build.css.map */
