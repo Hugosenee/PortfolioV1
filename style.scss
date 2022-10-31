@@ -255,7 +255,7 @@ body{
                     background-color: #95BCE6;
                     width: 150px;
                     height: 50px;
-                    font-size: medium;
+                                        font-size: medium;
                     border-radius: 25px;
                 }   
             }
@@ -348,14 +348,14 @@ footer{
                 height: 220px;
                 margin-top: 45px;
             }
-            p{
+            a{
                 font-size: 50px;
                 margin-top: 10px;
                 color: white;
                 position: relative;
                 cursor: pointer;
             }
-            p:after{
+            a:after{
                 content: "";
                 position: absolute;
                 background-color: white;
@@ -365,7 +365,7 @@ footer{
                 bottom: -1px;
                 transition: 0.3s;
             }
-            p:hover:after{
+            a:hover:after{
                 width: 100%;
             }
         }
