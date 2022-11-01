@@ -61,4 +61,46 @@ new Typewriter(loading, {
 .start()
 
 
+// slide
+
+var i = 0;
+var images = ['images/t-coach.png', 'images/t-coach1.png', 'images/t-coach2.png', 'images/t-coach3.png'];
+var time = 2000; 
+
+function changeImg(){
+
+    document.slide.src = images[i];
+
+    if(i > images.length - 1) {
+        i++;
+    }   else {
+        i = 0
+    }
+    setTimeout("changeImg()", time);
+}
+
+window.onload=changeImg;
+
+
+const nom = document.querySelector('#nom');
+const mdp = document.querySelector('#mdp');
+
+
+//connexion
+
+new Typewriter(nom, {
+    loop : false
+})
+
+.typeString('Hugo Senée')
+.start()
+
+new Typewriter(mdp, {
+    loop : false
+})
+
+.typeString('***********')
+.start()
+
+
 
