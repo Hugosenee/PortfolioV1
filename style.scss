@@ -178,12 +178,29 @@ body{
                 width: 60%;
                 height: 60vh;
                 box-shadow: 16px 14px 20px #232C36;
+                background-color: #232C36;
                 overflow: hidden;
                 img{
                     width: 100%;
                     height: 100%;
+                    position: relative;
                 }
-                
+                p{
+                    position: absolute;
+                    font-size: 60px;
+                    color: white;
+                    top: 20%;
+                    width: 60%;
+                    height: 60.2%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    opacity: 0;
+                    background-color: #232C36;
+                }
+                p:hover{
+                    opacity: 90%;
+                }
             }
             .textsite{
                 width: 40%;
@@ -229,6 +246,23 @@ body{
                 img{
                     width: 100%;
                     height: 100%;
+                    position: relative;
+                }
+                p{
+                    position: absolute;
+                    font-size: 60px;
+                    color: white;
+                    top: 20%;
+                    width: 60%;
+                    height: 60.2%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    opacity: 0;
+                    background-color: #232C36;
+                }
+                p:hover{
+                    opacity: 90%;
                 }
                 
             }

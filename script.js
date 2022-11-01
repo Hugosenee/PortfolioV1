@@ -1,3 +1,5 @@
+// couleurs hugo developpeur
+
 const hugo = document.querySelector('.hugo')
 const developeur = document.querySelector('.developpeur')
 
@@ -12,8 +14,7 @@ developeur.addEventListener('mouseover', function() {
 })
 
 
-
-
+// apparaitre div scroll
 
 const timing = .55
 const options = {
@@ -31,11 +32,18 @@ const HandleIntersect = function (entries , observer) {
     })
 }
 
-
 const observer = new IntersectionObserver(HandleIntersect, options);
 document.querySelectorAll('.reveal').forEach(function (reveal) {
     observer.observe(reveal)
-})
+});
+
+
+
+
+
+
+
+//loading...
 
 const loading = document.querySelector('#troispoints');
 
