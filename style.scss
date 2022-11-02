@@ -362,7 +362,6 @@ footer{
             }
             .imglink{
                 width: 60%;
-                min-width: 600px;
                 height: 40vh;
                 display: flex;
                 img{
@@ -744,4 +743,138 @@ body{
         }
     }
 }
+
+//responsive
+
+@media screen and (max-width: 426px){
+    header{
+        height: auto;
+        .portfolioheader{
+            p{
+                font-size: 65px;
+            }
+        }
+        .headerlink{
+            ul{
+                font-size: 20px;
+                margin-top: 20px;
+            }
+        }
+    }
+    body{
+        .landing{
+            .image{
+                img{
+                    height: auto;
+                }
+            }
+            .droite{
+                .hugo{
+                    p{
+                        margin-top: 0;
+                        font-size: 120px;
+                        text-align: center;
+                    }
+                }
+                .developpeur{
+                    margin-top: 40px;
+                    height: 235px;
+                    p{
+                        font-size: 80px;
+                    }
+                }
+            }
+        }
+        .fondblanc{
+            .text{
+                p{
+                    font-size: 40px;
+                }
+            }
+            .about{
+                p{
+                    font-size: 80px;
+                }
+            }
+        }
+        .projets{
+            .projet1{
+                display: block;
+                height: auto;
+                margin-bottom: 20px;
+                .imgsite{
+                    height: 40vh;
+                    width: 90%;
+                    margin-top: 20px;
+                    p{
+                        top: 5%;
+                        width: 90%;
+                        height: 50%;
+                    }
+                }
+                .textsite{
+                    margin-top: 20px;   
+                }
+            }
+            .projet2{
+                display: block;
+                height: auto;
+                margin-bottom: 20px;
+                .imgsite{
+                    height: 40vh;
+                    width: 90%;
+                    margin-top: 20px;
+                    p{
+                        top: 5%;
+                        width: 90%;
+                        height: 50%;
+                    }
+                }
+                .textsite{
+                    margin-top: 20px;   
+                }
+            }
+            .projet3{
+                display: block;
+                height: auto;
+                margin-bottom: 20px;
+                .imgsite{
+                    height: 40vh;
+                    width: 90%;
+                    margin-top: 20px;
+                    p{
+                        top: 5%;
+                        width: 90%;
+                        height: 50%;
+                    }
+                    #loading{
+                        text-align: center;
+                    }
+                }
+                .textsite{
+                    margin-top: 20px;   
+                }
+            }
+        }
+    }
+    footer{
+        .footer{
+            .textlink{
+                .imglink{
+                    margin: 0;
+                    img{
+                        margin-top: 20px;
+                    }
+                }
+            }
+            .cv{
+                img{
+                    margin-top: 10px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+}
+
 

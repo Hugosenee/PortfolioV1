@@ -361,7 +361,6 @@ footer .footer .textlink p {
 }
 footer .footer .textlink .imglink {
   width: 60%;
-  min-width: 600px;
   height: 40vh;
   display: flex;
 }
@@ -717,6 +716,107 @@ body .prest-chateau .bas .imgbasdroite p {
   margin-top: 30px;
   font-size: 30px;
   text-align: center;
+}
+
+@media screen and (max-width: 426px) {
+  header {
+    height: auto;
+  }
+  header .portfolioheader p {
+    font-size: 65px;
+  }
+  header .headerlink ul {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  body .landing .image img {
+    height: auto;
+  }
+  body .landing .droite .hugo p {
+    margin-top: 0;
+    font-size: 120px;
+    text-align: center;
+  }
+  body .landing .droite .developpeur {
+    margin-top: 40px;
+    height: 235px;
+  }
+  body .landing .droite .developpeur p {
+    font-size: 80px;
+  }
+  body .fondblanc .text p {
+    font-size: 40px;
+  }
+  body .fondblanc .about p {
+    font-size: 80px;
+  }
+  body .projets .projet1 {
+    display: block;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  body .projets .projet1 .imgsite {
+    height: 40vh;
+    width: 90%;
+    margin-top: 20px;
+  }
+  body .projets .projet1 .imgsite p {
+    top: 5%;
+    width: 90%;
+    height: 50%;
+  }
+  body .projets .projet1 .textsite {
+    margin-top: 20px;
+  }
+  body .projets .projet2 {
+    display: block;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  body .projets .projet2 .imgsite {
+    height: 40vh;
+    width: 90%;
+    margin-top: 20px;
+  }
+  body .projets .projet2 .imgsite p {
+    top: 5%;
+    width: 90%;
+    height: 50%;
+  }
+  body .projets .projet2 .textsite {
+    margin-top: 20px;
+  }
+  body .projets .projet3 {
+    display: block;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  body .projets .projet3 .imgsite {
+    height: 40vh;
+    width: 90%;
+    margin-top: 20px;
+  }
+  body .projets .projet3 .imgsite p {
+    top: 5%;
+    width: 90%;
+    height: 50%;
+  }
+  body .projets .projet3 .imgsite #loading {
+    text-align: center;
+  }
+  body .projets .projet3 .textsite {
+    margin-top: 20px;
+  }
+  footer .footer .textlink .imglink {
+    margin: 0;
+  }
+  footer .footer .textlink .imglink img {
+    margin-top: 20px;
+  }
+  footer .footer .cv img {
+    margin-top: 10px;
+    height: 150px;
+  }
 }
 
 /*# sourceMappingURL=build.css.map */
