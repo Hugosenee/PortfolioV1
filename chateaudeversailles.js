@@ -24,7 +24,7 @@ document.querySelectorAll('.reveal').forEach(function (reveal) {
 //slide
 
 var i = 0;
-var images = ['images/t-coach.png','images/t-coach1.png','images/t-coach2.png','images/t-coach3.png'];
+var images = ['images/chateau.png','images/chateau1.png','images/chateau2.png'];
 var time = 3000; 
 var slide = document.querySelector('.slider');
 

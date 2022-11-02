@@ -25,6 +25,9 @@ header .portfolioheader {
 header .portfolioheader span {
   color: #232C36;
 }
+header .portfolioheader a {
+  color: white;
+}
 header .headerlink {
   width: 40%;
 }
@@ -133,7 +136,7 @@ body .fondblanc {
 body .fondblanc .about {
   width: 50%;
   height: 100vh;
-  margin-top: 10vh;
+  margin-top: 5vh;
   text-align: center;
   align-items: center;
   display: flex;
@@ -145,7 +148,7 @@ body .fondblanc .about p {
 body .fondblanc .text {
   width: 50%;
   height: 70vh;
-  margin-top: 25vh;
+  margin-top: 20vh;
   text-align: center;
   align-items: center;
   display: flex;
@@ -454,12 +457,266 @@ body #butonindex:hover {
   color: white;
 }
 
-body .sliderT-coach img {
+body .landingT-coach .sliderT-coach img {
   width: 800px;
   height: 400px;
   display: flex;
   justify-content: center;
   margin-top: 35px;
+  box-shadow: 16px 14px 20px #232C36;
+}
+body .landingT-coach #t-coachtitre {
+  text-align: center;
+  color: #232C36;
+  font-size: 80px;
+  margin-top: 30px;
+}
+body .landingT-coach p {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+body .prest-coach {
+  margin-top: 100px;
+  width: 100%;
+  height: 140vh;
+}
+body .prest-coach .haut {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+}
+body .prest-coach .haut .imghaut {
+  width: 40%;
+}
+body .prest-coach .haut .imghaut img {
+  width: 420px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  box-shadow: 16px 14px 20px #232C36;
+}
+body .prest-coach .haut #textehaut {
+  text-align: center;
+  width: 40%;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+body .prest-coach .haut .chartre {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body .prest-coach .haut .chartre p {
+  text-align: center;
+}
+body .prest-coach .haut .chartre .bleu {
+  width: 100%;
+  height: 33.333%;
+}
+body .prest-coach .haut .chartre .bleu div {
+  width: 75px;
+  height: 75px;
+  background-color: #0E89C2;
+  border: 2px solid #232C36;
+  margin-top: 5px;
+}
+body .prest-coach .haut .chartre .noir {
+  width: 100%;
+  height: 33.333%;
+}
+body .prest-coach .haut .chartre .noir div {
+  width: 75px;
+  height: 75px;
+  background-color: rgba(34, 34, 34, 0.986);
+  border: 2px solid #232C36;
+  margin-top: 5px;
+}
+body .prest-coach .haut .chartre .gris {
+  width: 100%;
+  height: 33.333%;
+}
+body .prest-coach .haut .chartre .gris div {
+  width: 75px;
+  height: 75px;
+  background-color: #BEBEBE;
+  border: 2px solid #232C36;
+  margin-top: 5px;
+}
+body .prest-coach .bas {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  border-top: 3px solid #232C36;
+  margin-top: 50px;
+}
+body .prest-coach .bas .imgbasgauche {
+  width: 40%;
+  height: 60vh;
+}
+body .prest-coach .bas .imgbasgauche img {
+  width: 420px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  box-shadow: 16px 14px 20px #232C36;
+}
+body .prest-coach .bas .imgbasgauche p {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+body .prest-coach .bas .imgbasdroite {
+  width: 40%;
+  height: 60vh;
+}
+body .prest-coach .bas .imgbasdroite img {
+  width: 420px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  box-shadow: 16px 14px 20px #232C36;
+}
+body .prest-coach .bas .imgbasdroite p {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+body .landingchateau .sliderchateau img {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  box-shadow: 16px 14px 20px #232C36;
+}
+body .landingchateau #chateautitre {
+  text-align: center;
+  color: #232C36;
+  font-size: 80px;
+  margin-top: 30px;
+}
+body .landingchateau p {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+body .prest-chateau {
+  margin-top: 100px;
+  width: 100%;
+  height: 140vh;
+}
+body .prest-chateau .haut {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+}
+body .prest-chateau .haut .imghaut {
+  width: 40%;
+}
+body .prest-chateau .haut .imghaut img {
+  width: 420px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  box-shadow: 16px 14px 20px #232C36;
+}
+body .prest-chateau .haut #textehaut {
+  text-align: center;
+  width: 40%;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+body .prest-chateau .haut .chartre {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body .prest-chateau .haut .chartre p {
+  text-align: center;
+}
+body .prest-chateau .haut .chartre .bleu {
+  width: 100%;
+  height: 33.333%;
+}
+body .prest-chateau .haut .chartre .bleu div {
+  width: 75px;
+  height: 75px;
+  background-color: #ffe4c4;
+  border: 2px solid #232C36;
+  margin-top: 5px;
+}
+body .prest-chateau .haut .chartre .noir {
+  width: 100%;
+  height: 33.333%;
+}
+body .prest-chateau .haut .chartre .noir div {
+  width: 75px;
+  height: 75px;
+  background-color: #B39878;
+  border: 2px solid #232C36;
+  margin-top: 5px;
+}
+body .prest-chateau .haut .chartre .gris {
+  width: 100%;
+  height: 33.333%;
+}
+body .prest-chateau .haut .chartre .gris div {
+  width: 75px;
+  height: 75px;
+  background-color: #040404;
+  border: 2px solid #232C36;
+  margin-top: 5px;
+}
+body .prest-chateau .bas {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  border-top: 3px solid #232C36;
+  margin-top: 50px;
+}
+body .prest-chateau .bas .imgbasgauche {
+  width: 40%;
+  height: 60vh;
+}
+body .prest-chateau .bas .imgbasgauche img {
+  width: 420px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  box-shadow: 16px 14px 20px #232C36;
+}
+body .prest-chateau .bas .imgbasgauche p {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+body .prest-chateau .bas .imgbasdroite {
+  width: 40%;
+  height: 60vh;
+}
+body .prest-chateau .bas .imgbasdroite img {
+  width: 420px;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  box-shadow: 16px 14px 20px #232C36;
+}
+body .prest-chateau .bas .imgbasdroite p {
+  margin-top: 30px;
+  font-size: 30px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=build.css.map */

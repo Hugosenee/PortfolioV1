@@ -82,10 +82,6 @@ function changeImg(){
 window.onload=changeImg;
 
 
-const nom = document.querySelector('#nom');
-const mdp = document.querySelector('#mdp');
-
-
 //connexion
 
 new Typewriter(nom, {
