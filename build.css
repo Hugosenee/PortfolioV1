@@ -858,6 +858,9 @@ body .prest-chateau .bas .imgbasdroite p {
     margin-top: 35px;
     font-size: 25px;
     margin-bottom: 25px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   body .prest-coach .bas {
     height: 180vh;
@@ -896,6 +899,9 @@ body .prest-chateau .bas .imgbasdroite p {
     margin-top: 35px;
     font-size: 25px;
     margin-bottom: 25px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   body .prest-chateau .bas {
     height: 180vh;
