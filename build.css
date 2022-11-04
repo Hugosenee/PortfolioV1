@@ -109,9 +109,6 @@ body .landing .droite .hugo {
 body .landing .droite .hugo p {
   margin-top: 80px;
 }
-body .landing .droite .hugo:hover {
-  cursor: pointer;
-}
 body .landing .droite .developpeur {
   position: relative;
   width: 100%;
@@ -122,9 +119,6 @@ body .landing .droite .developpeur {
   color: white;
   border-left: 3px solid #232C36;
   border-top: 3px solid #232C36;
-}
-body .landing .droite .developpeur:hover {
-  cursor: pointer;
 }
 body .fondblanc {
   width: 100%;
@@ -718,6 +712,205 @@ body .prest-chateau .bas .imgbasdroite p {
   text-align: center;
 }
 
+@media screen and (max-width: 1025px) {
+  header {
+    height: auto;
+  }
+  body .landing .droite .hugo p {
+    margin-top: 60px;
+  }
+  body .landing .image img {
+    height: auto;
+  }
+  body .prest-coach .haut .imghaut {
+    width: 20%;
+    margin-left: 20px;
+  }
+  body .prest-coach .haut #textehaut {
+    font-size: 20px;
+    width: 20%;
+    margin-right: 35px;
+  }
+  body .prest-coach .haut .chartre {
+    width: 60px;
+  }
+  body .prest-coach .bas {
+    width: 100%;
+  }
+  body .prest-chateau .haut .imghaut {
+    width: 20%;
+    margin-left: 20px;
+  }
+  body .prest-chateau .haut #textehaut {
+    font-size: 20px;
+    width: 20%;
+    margin-right: 35px;
+  }
+  body .prest-chateau .haut .chartre {
+    width: 60px;
+  }
+  body .prest-chateau .bas {
+    width: 100%;
+  }
+  footer .footer .cv img {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 769px) {
+  header {
+    height: auto;
+  }
+  header .headerlink {
+    width: auto;
+  }
+  body .landing .image img {
+    height: auto;
+  }
+  body .landing .droite .hugo p {
+    font-size: 100px;
+    margin-top: 120px;
+  }
+  body .landing .droite .developpeur {
+    display: block;
+  }
+  body .landing .droite .developpeur p {
+    font-size: 100px;
+    text-align: center;
+  }
+  body .fondblanc .about {
+    width: auto;
+  }
+  body .fondblanc .about p {
+    font-size: 130px;
+  }
+  body .fondblanc .text {
+    width: 40%;
+  }
+  body .fondblanc .text p {
+    font-size: 30px;
+    margin-left: 40px;
+    padding: 20px;
+  }
+  body .projets {
+    height: 250vh;
+  }
+  body .projets .projet1 {
+    height: 65vh;
+    width: auto;
+  }
+  body .projets .projet1 .imgsite {
+    width: 50%;
+    height: 50%;
+    margin-right: 20px;
+  }
+  body .projets .projet1 .imgsite p {
+    width: 50%;
+    height: 50%;
+    top: 25%;
+  }
+  body .projets .projet2 {
+    height: 65vh;
+    width: auto;
+  }
+  body .projets .projet2 .imgsite {
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+  }
+  body .projets .projet2 .imgsite p {
+    width: 50%;
+    height: 50%;
+    top: 25%;
+  }
+  body .projets .projet3 {
+    height: 65vh;
+    width: auto;
+  }
+  body .projets .projet3 .imgsite {
+    width: 50%;
+    height: 50%;
+    margin-left: 20px;
+  }
+  body .landingT-coach .sliderT-coach img {
+    width: 700px;
+    height: auto;
+  }
+  body .prest-coach {
+    height: 300vh;
+  }
+  body .prest-coach .haut {
+    display: block;
+    height: 130vh;
+  }
+  body .prest-coach .haut .chartre .bleu {
+    height: auto;
+  }
+  body .prest-coach .haut .chartre .noir {
+    height: auto;
+  }
+  body .prest-coach .haut .chartre .gris {
+    height: auto;
+  }
+  body .prest-coach .haut .imghaut {
+    width: auto;
+  }
+  body .prest-coach .haut #textehaut {
+    margin-top: 35px;
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  body .prest-coach .bas {
+    height: 180vh;
+    display: block;
+  }
+  body .prest-coach .bas .imgbasgauche {
+    width: auto;
+  }
+  body .prest-coach .bas .imgbasdroite {
+    width: auto;
+  }
+  body .landingchateau .sliderchateau img {
+    width: 700px;
+    height: auto;
+  }
+  body .prest-chateau {
+    height: 300vh;
+  }
+  body .prest-chateau .haut {
+    display: block;
+    height: 130vh;
+  }
+  body .prest-chateau .haut .chartre .bleu {
+    height: auto;
+  }
+  body .prest-chateau .haut .chartre .noir {
+    height: auto;
+  }
+  body .prest-chateau .haut .chartre .gris {
+    height: auto;
+  }
+  body .prest-chateau .haut .imghaut {
+    width: auto;
+  }
+  body .prest-chateau .haut #textehaut {
+    margin-top: 35px;
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  body .prest-chateau .bas {
+    height: 180vh;
+    display: block;
+  }
+  body .prest-chateau .bas .imgbasgauche {
+    width: auto;
+  }
+  body .prest-chateau .bas .imgbasdroite {
+    width: auto;
+  }
+  footer .footer .cv img {
+    margin-top: 20px;
+  }
+}
 @media screen and (max-width: 426px) {
   header {
     height: auto;
@@ -744,10 +937,13 @@ body .prest-chateau .bas .imgbasdroite p {
     font-size: 80px;
   }
   body .fondblanc .text p {
-    font-size: 40px;
+    font-size: 25px;
   }
   body .fondblanc .about p {
     font-size: 80px;
+  }
+  body .projets {
+    height: 320vh;
   }
   body .projets .projet1 {
     display: block;
@@ -778,7 +974,7 @@ body .prest-chateau .bas .imgbasdroite p {
     margin-top: 20px;
   }
   body .projets .projet2 .imgsite p {
-    top: 5%;
+    top: 50%;
     width: 90%;
     height: 50%;
   }
@@ -806,10 +1002,68 @@ body .prest-chateau .bas .imgbasdroite p {
   body .projets .projet3 .textsite {
     margin-top: 20px;
   }
-  body .projets .landingT-coach .sliderT-coach img {
+  body .landingT-coach .sliderT-coach img {
     width: 400px;
     height: 250px;
-    margin-top: 150px;
+  }
+  body .prest-coach {
+    height: 265vh;
+  }
+  body .prest-coach .haut {
+    width: auto;
+    height: auto;
+    display: block;
+  }
+  body .prest-coach .haut .imghaut {
+    width: auto;
+    margin-bottom: 50px;
+  }
+  body .prest-coach .haut #textehaut {
+    font-size: 20px;
+    width: auto;
+    margin-bottom: 20px;
+  }
+  body .prest-coach .bas {
+    display: block;
+    width: auto;
+  }
+  body .prest-coach .bas .imgbasgauche {
+    width: auto;
+  }
+  body .prest-coach .bas .imgbasdroite {
+    width: auto;
+  }
+  body .landingchateau .sliderchateau img {
+    width: 400px;
+    height: 250px;
+  }
+  body .prest-chateau {
+    height: 265vh;
+  }
+  body .prest-chateau .haut {
+    width: auto;
+    height: auto;
+    display: block;
+  }
+  body .prest-chateau .haut .imghaut {
+    margin-left: 0;
+    width: auto;
+    margin-bottom: 50px;
+  }
+  body .prest-chateau .haut #textehaut {
+    font-size: 20px;
+    width: auto;
+    margin-bottom: 20px;
+  }
+  body .prest-chateau .bas {
+    display: block;
+    width: auto;
+  }
+  body .prest-chateau .bas .imgbasgauche {
+    width: auto;
+  }
+  body .prest-chateau .bas .imgbasdroite {
+    width: auto;
   }
   footer .footer .textlink .imglink {
     margin: 0;

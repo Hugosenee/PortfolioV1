@@ -109,9 +109,6 @@ body{
                     margin-top: 80px;
                 }
             }
-            .hugo:hover{
-                cursor: pointer;
-            }
             .developpeur{
                 position: relative;
                 width: 100%;
@@ -122,9 +119,6 @@ body{
                 color: white;
                 border-left: 3px solid #232C36;
                 border-top: 3px solid #232C36;
-            }
-            .developpeur:hover{
-                cursor: pointer;
             }
         }
     }
@@ -746,6 +740,261 @@ body{
 
 //responsive
 
+@media screen and (max-width: 1025px){
+    header{
+        height: auto;
+    }
+    body{
+        .landing{
+            .droite{
+                .hugo{
+                    p{
+                        margin-top: 60px;
+                    }
+                }
+            }
+            .image{
+                img{
+                    height: auto;
+                }
+            }
+        }
+        .prest-coach{
+            .haut{
+                .imghaut{
+                    width: 20%;
+                    margin-left: 20px;
+                }
+                #textehaut{
+                    font-size: 20px;
+                    width: 20%;
+                    margin-right: 35px;
+                }
+                .chartre{
+                    width: 60px;
+                }
+            }
+            .bas{
+                width: 100%;
+            }
+        }
+        .prest-chateau{
+            .haut{
+                .imghaut{
+                    width: 20%;
+                    margin-left: 20px;
+                }
+                #textehaut{
+                    font-size: 20px;
+                    width: 20%;
+                    margin-right: 35px;
+                }
+                .chartre{
+                    width: 60px;
+                }
+            }
+            .bas{
+                width: 100%;
+            }
+        }
+    }
+    footer{
+        .footer{
+            .cv{
+                img{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 769px){
+    header{
+        height: auto;
+        .headerlink{
+            width: auto;
+        }
+    }
+    body{
+        .landing{
+            .image{
+                img{
+                    height: auto;
+                }
+            }
+            .droite{
+                .hugo{
+                    p{
+                        font-size: 100px;
+                        margin-top: 120px;
+                    }
+                }
+                .developpeur{
+                    display: block;
+                    p{
+                        font-size: 100px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .fondblanc{
+            .about{
+                width: auto;
+                p{
+                    font-size: 130px;
+                }
+            }
+            .text{
+                width: 40%;
+                p{
+                    font-size: 30px;
+                    margin-left: 40px;
+                    padding: 20px;
+                }
+            }
+        }
+        .projets{
+            height: 250vh;
+            .projet1{
+                height: 65vh;
+                width: auto;
+                .imgsite{
+                    width: 50%;
+                    height: 50%;
+                    margin-right: 20px;
+                    p{
+                        width: 50%;
+                        height: 50%;
+                        top: 25%;
+                    }
+                }
+            }
+            .projet2{
+                height: 65vh;
+                width: auto;
+                .imgsite{
+                    width: 50%;
+                    height: 50%;
+                    margin-left: 20px;
+                    p{
+                        width: 50%;
+                        height: 50%;
+                        top: 25%;
+                    }
+                }
+            }
+            .projet3{
+                height: 65vh;
+                width: auto;
+                .imgsite{
+                    width: 50%;
+                    height: 50%;
+                    margin-left: 20px;
+                }
+            }
+        }
+        .landingT-coach{
+            .sliderT-coach{
+                img{
+                    width: 700px;
+                    height: auto;
+                }
+            }
+        }
+        .prest-coach{
+            height: 300vh;
+            .haut{
+                display: block;
+                height: 130vh;
+                .chartre{
+                    .bleu{
+                        height: auto;
+                    }
+                    .noir{
+                        height: auto;
+                    }
+                    .gris{
+                        height: auto;
+                    }
+                }
+                .imghaut{
+                    width: auto;
+                }
+                #textehaut{
+                    margin-top: 35px;
+                    font-size: 25px;
+                    margin-bottom: 25px;
+                }
+            }
+            .bas{
+                height: 180vh;
+                display: block;
+                .imgbasgauche{
+                    width: auto;
+                }
+                .imgbasdroite{
+                    width: auto;
+                }
+            }
+        }
+        .landingchateau{
+            .sliderchateau{
+                img{
+                    width: 700px;
+                    height: auto;
+                }
+            }
+        }
+        .prest-chateau{
+            height: 300vh;
+            .haut{
+                display: block;
+                height: 130vh;
+                .chartre{
+                    .bleu{
+                        height: auto;
+                    }
+                    .noir{
+                        height: auto;
+                    }
+                    .gris{
+                        height: auto;
+                    }
+                }
+                .imghaut{
+                    width: auto;
+                }
+                #textehaut{
+                    margin-top: 35px;
+                    font-size: 25px;
+                    margin-bottom: 25px;
+                }
+            }
+            .bas{
+                height: 180vh;
+                display: block;
+                .imgbasgauche{
+                    width: auto;
+                }
+                .imgbasdroite{
+                    width: auto;
+                }
+            }
+        }
+    }
+    footer{
+        .footer{
+            .cv{
+                img{
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
 
 @media screen and (max-width: 426px){
     header{
@@ -788,7 +1037,7 @@ body{
         .fondblanc{
             .text{
                 p{
-                    font-size: 40px;
+                    font-size: 25px;
                 }
             }
             .about{
@@ -798,6 +1047,7 @@ body{
             }
         }
         .projets{
+            height: 320vh;
             .projet1{
                 display: block;
                 height: auto;
@@ -825,7 +1075,7 @@ body{
                     width: 90%;
                     margin-top: 20px;
                     p{
-                        top: 5%;
+                        top: 50%;
                         width: 90%;
                         height: 50%;
                     }
@@ -855,16 +1105,77 @@ body{
                     margin-top: 20px;   
                 }
             }
-            .landingT-coach{
-                .sliderT-coach{
-                    img{
-                        width: 400px;
-                        height: 250px;
-                        margin-top: 150px;
-                    }
+        }
+        .landingT-coach{
+            .sliderT-coach{
+                img{
+                    width: 400px;
+                    height: 250px;
                 }
             }
-        
+        }
+        .prest-coach{
+            height: 265vh;
+            .haut{
+                width: auto;
+                height: auto;
+                display: block;
+                .imghaut{
+                    width: auto;
+                    margin-bottom: 50px;
+                }
+                #textehaut{
+                    font-size: 20px;
+                    width: auto;
+                    margin-bottom: 20px;
+                }
+            }
+            .bas{
+                display: block;
+                width: auto;
+                .imgbasgauche{
+                    width: auto;
+                }
+                .imgbasdroite{
+                    width: auto;
+                }
+            }
+        }
+        .landingchateau{
+            .sliderchateau{
+                img{
+                    width: 400px;
+                    height: 250px;
+                }
+            }
+        }
+        .prest-chateau{
+            height: 265vh;
+            .haut{
+                width: auto;
+                height: auto;
+                display: block;
+                .imghaut{
+                    margin-left: 0;
+                    width: auto;
+                    margin-bottom: 50px;
+                }
+                #textehaut{
+                    font-size: 20px;
+                    width: auto;
+                    margin-bottom: 20px;
+                }
+            }
+            .bas{
+                display: block;
+                width: auto;
+                .imgbasgauche{
+                    width: auto;
+                }
+                .imgbasdroite{
+                    width: auto;
+                }
+            }
         }
     }
     footer{
