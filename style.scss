@@ -989,6 +989,15 @@ body{
                 }
             }
         }
+        #h1index{
+            margin-top: 0;
+        }
+        #nom{
+            width: 768px;
+        }
+        #mdp{
+            width: 768px;
+        }
     }
     footer{
         .footer{
@@ -1129,6 +1138,8 @@ body{
                 .imghaut{
                     width: auto;
                     margin-bottom: 50px;
+                    margin-left: 0;
+                    margin-right: 0;
                 }
                 #textehaut{
                     font-size: 20px;
@@ -1162,9 +1173,10 @@ body{
                 height: auto;
                 display: block;
                 .imghaut{
-                    margin-left: 0;
                     width: auto;
                     margin-bottom: 50px;
+                    margin-left: 0;
+                    margin-right: 0;
                 }
                 #textehaut{
                     font-size: 20px;
@@ -1182,6 +1194,12 @@ body{
                     width: auto;
                 }
             }
+        }
+        #nom{
+            width: 454px;
+        }
+        #mdp{
+            width: 454px;
         }
     }
     footer{
@@ -1201,6 +1219,104 @@ body{
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 376px) {
+    header{
+        width: 100%;
+        .headerlink{
+            ul{
+                display: block;
+                margin-top: 0;
+                margin-left: 130px;
+            }
+        }
+    }
+    body{
+        .landing{
+            .droite{
+                .hugo{
+                    width: 100%;
+                }
+                .developpeur{
+                    width: 100%;
+                    p{
+                        font-size: 70px;
+                    }
+                }
+            }
+        }
+        .fondblanc{
+            width: 100%;
+        }
+        .projets{
+            width: 100%;
+            .titre{
+                p{
+                    font-size: 100px;
+                }
+            }
+        }
+        .landingT-coach{
+            .sliderT-coach{
+                img{
+                    width: 90%;
+                }
+            }
+        }
+        .prest-coach{
+            .haut{
+                .imghaut{
+                    img{
+                        width: 90%;
+                    }
+                }
+            }
+            .bas{
+                .imgbasgauche{
+                    img{
+                        width: 90%;
+                    }
+                }
+                .imgbasdroite{
+                    img{
+                        width: 90%;
+                    }
+                }
+            }
+        }
+        .landingchateau{
+            .sliderchateau{
+                img{
+                    width: 90%;
+                }
+            }
+        }
+        .prest-chateau{
+            .haut{
+                .imghaut{
+                    img{
+                        width: 90%;
+                    }
+                }
+            }
+            .bas{
+                .imgbasgauche{
+                    img{
+                        width: 90%;
+                    }
+                }
+                .imgbasdroite{
+                    img{
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        width: 100%;
     }
 }
 

@@ -913,6 +913,15 @@ body .prest-chateau .bas .imgbasdroite p {
   body .prest-chateau .bas .imgbasdroite {
     width: auto;
   }
+  body #h1index {
+    margin-top: 0;
+  }
+  body #nom {
+    width: 768px;
+  }
+  body #mdp {
+    width: 768px;
+  }
   footer .footer .cv img {
     margin-top: 20px;
   }
@@ -1023,6 +1032,8 @@ body .prest-chateau .bas .imgbasdroite p {
   body .prest-coach .haut .imghaut {
     width: auto;
     margin-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
   }
   body .prest-coach .haut #textehaut {
     font-size: 20px;
@@ -1052,9 +1063,10 @@ body .prest-chateau .bas .imgbasdroite p {
     display: block;
   }
   body .prest-chateau .haut .imghaut {
-    margin-left: 0;
     width: auto;
     margin-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
   }
   body .prest-chateau .haut #textehaut {
     font-size: 20px;
@@ -1071,6 +1083,12 @@ body .prest-chateau .bas .imgbasdroite p {
   body .prest-chateau .bas .imgbasdroite {
     width: auto;
   }
+  body #nom {
+    width: 454px;
+  }
+  body #mdp {
+    width: 454px;
+  }
   footer .footer .textlink .imglink {
     margin: 0;
   }
@@ -1080,6 +1098,61 @@ body .prest-chateau .bas .imgbasdroite p {
   footer .footer .cv img {
     margin-top: 10px;
     height: 150px;
+  }
+}
+@media screen and (max-width: 376px) {
+  header {
+    width: 100%;
+  }
+  header .headerlink ul {
+    display: block;
+    margin-top: 0;
+    margin-left: 130px;
+  }
+  body .landing .droite .hugo {
+    width: 100%;
+  }
+  body .landing .droite .developpeur {
+    width: 100%;
+  }
+  body .landing .droite .developpeur p {
+    font-size: 70px;
+  }
+  body .fondblanc {
+    width: 100%;
+  }
+  body .projets {
+    width: 100%;
+  }
+  body .projets .titre p {
+    font-size: 100px;
+  }
+  body .landingT-coach .sliderT-coach img {
+    width: 90%;
+  }
+  body .prest-coach .haut .imghaut img {
+    width: 90%;
+  }
+  body .prest-coach .bas .imgbasgauche img {
+    width: 90%;
+  }
+  body .prest-coach .bas .imgbasdroite img {
+    width: 90%;
+  }
+  body .landingchateau .sliderchateau img {
+    width: 90%;
+  }
+  body .prest-chateau .haut .imghaut img {
+    width: 90%;
+  }
+  body .prest-chateau .bas .imgbasgauche img {
+    width: 90%;
+  }
+  body .prest-chateau .bas .imgbasdroite img {
+    width: 90%;
+  }
+  footer {
+    width: 100%;
   }
 }
 
