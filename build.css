@@ -714,7 +714,7 @@ body .prest-chateau .bas .imgbasdroite p {
 
 @media screen and (max-width: 2561px) {
   body .landing .image img {
-    height: 1263px;
+    height: px;
   }
 }
 @media screen and (max-width: 1441px) {
@@ -725,6 +725,9 @@ body .prest-chateau .bas .imgbasdroite p {
 @media screen and (max-width: 1025px) {
   header {
     height: auto;
+  }
+  body .landing .image img {
+    height: 477px;
   }
   body .landing .droite .hugo p {
     margin-top: 60px;

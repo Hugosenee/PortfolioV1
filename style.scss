@@ -746,7 +746,7 @@ body{
         .landing{
             .image{
                 img{
-                    height: 1263px;
+                    height: px;
                 }
             }
         }
@@ -771,6 +771,11 @@ body{
     }
     body{
         .landing{
+            .image{
+                img{
+                    height: 477px;
+                }
+            }
             .droite{
                 .hugo{
                     p{
