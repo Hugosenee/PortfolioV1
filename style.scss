@@ -741,6 +741,19 @@ body{
 //responsive
 
 
+
+@media screen and (max-width: 1441px){
+    body{
+        .landing{
+            .image{
+                img{
+                    width: 700px;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 1025px){
     header{
         height: auto;
